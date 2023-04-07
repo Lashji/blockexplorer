@@ -8,8 +8,6 @@ const Home = ({ alchemy }) => {
   const [blockNumber, setBlockNumber] = useState();
   const [block, setBlock] = useState();
 
-  // const [selectedTx, setSelectedTx] = useState();
-  console.log("blockNumber", blockNumber);
   useEffect(() => {
     async function getBlockNumber() {
       setBlockNumber(await alchemy.core.getBlockNumber());

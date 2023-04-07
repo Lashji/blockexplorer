@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import TransactionItem from "./transactionItem";
 
 const BlockTransactions = ({ transactions }) => {
-  console.log("transactions", transactions);
   return (
     <div className="flex flex-col overflow-scroll flex-1 max-h-[42rem] w-full bg-blue-950 shadow-md p-4 rounded-lg">
       <ul className="text-white flex flex-col gap-4 w-full">

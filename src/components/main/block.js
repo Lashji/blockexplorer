@@ -7,7 +7,6 @@ const Blocks = ({ alchemy }) => {
   const [block, setBlock] = useState();
 
   const { id } = useParams();
-  console.log("params", id);
 
   useEffect(() => {
     async function getBlock() {

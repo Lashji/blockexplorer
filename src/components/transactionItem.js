@@ -2,8 +2,6 @@ import { Utils } from "alchemy-sdk";
 import { Link } from "react-router-dom";
 
 const TransactionItem = ({ transaction }) => {
-  console.log("transaction", transaction);
-
   return (
     <li className="flex flex-col justify-between shadow-sm shadow-blue-900 p-4  rounded-2xl">
       <h3>

@@ -13,7 +13,6 @@ const Transactions = ({ alchemy }) => {
     getTransaction();
   }, [id]);
 
-  console.log("transaction", transaction, id);
   return (
     <div>
       {transaction ? (
